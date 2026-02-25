@@ -7,13 +7,15 @@ namespace MyApp.GenericRepository
     {
         private List<T>? _items;
 
-        public void Add(T item)
+        public T Add(T item)
         {
             _items!.Add(item);
+            return item;
         }
-        public void Remove(T item)
+        public T Remove(T item)
         {
             _items!.Remove(item);
+            return item;
         }
 
         public List<T> GetAll()
