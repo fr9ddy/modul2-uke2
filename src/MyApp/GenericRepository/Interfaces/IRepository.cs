@@ -1,6 +1,6 @@
 using System;
 
-namespace MyApp.GenericCalculator;
+namespace MyApp.GenericRepository.Interfaces;
 
 public interface IRepository<T>
 {

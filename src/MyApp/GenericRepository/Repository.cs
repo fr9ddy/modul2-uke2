@@ -1,5 +1,4 @@
-using MyApp.GenericCalculator;
-using MyApp.GenericRepository;
+using MyApp.GenericRepository.Interfaces;
 
 namespace MyApp.GenericRepository
 {
